@@ -33,3 +33,4 @@ if __name__ == '__main__':
 
     greenlet = gevent.spawn( readFunc, msgq )
     greenlet.join()
+
